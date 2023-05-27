@@ -1,0 +1,68 @@
+p {
+  font-size: small;
+}
+h6,
+p,
+small {
+  color: lightgray;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+span {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-body {
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.card {
+  border: none;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.circle {
+  height: 9.5rem;
+  width: 9.5rem;
+  border-radius: 50%;
+  background-color: hsla(244, 72%, 46%, 0.5);
+}
+
+.row .col-md-6:first-child .card-body {
+  background-color: hsl(247, 86%, 60%);
+}
+
+.row .col-md-6:last-child .card-body div.rounded-2:nth-child(2) {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.row .col-md-6:last-child .card-body div.rounded-2:nth-child(3) {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.row .col-md-6:last-child .card-body div.rounded-2:nth-child(4) {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.row .col-md-6:last-child .card-body div.rounded-2:nth-child(5) {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  background-color: hsl(247, 86%, 60%);
+  border: none;
+}
+@media only screen and (max-width: 767px) {
+  .row .col-md-6:first-child .card-body {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}
