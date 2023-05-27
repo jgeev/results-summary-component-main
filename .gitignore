@@ -2,9 +2,10 @@
 *.sketch
 *.fig
 *.xd
+*.json
 .DS_Store
 .prettierignore
 design/
 style-guide.md
 assets/
-.json
+
