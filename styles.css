@@ -39,7 +39,12 @@ h1 {
 }
 
 .row .col-md-6:first-child .card-body {
-  background-color: hsl(247, 86%, 60%);
+  background: radial-gradient(
+    farthest-corner at 60% 55%,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 81%, 54%, 0.9),
+    hsla(241, 72%, 46%, 0.6)
+  );
 }
 
 .row .col-md-6:last-child .card-body div.rounded-2:nth-child(2) {
@@ -57,7 +62,12 @@ h1 {
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-  background-color: hsl(247, 86%, 60%);
+  background: radial-gradient(
+    farthest-corner at 60% 55%,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 81%, 54%, 0.9),
+    hsla(241, 72%, 46%, 0.6)
+  );
   border: none;
 }
 @media only screen and (max-width: 767px) {
